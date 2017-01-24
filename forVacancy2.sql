@@ -2,7 +2,7 @@ use testDB;
 
 select
 	res.ProductId,
-	Count(res.id) 'Куплен первым Х раз'
+	Count(res.id) 'РљСѓРїР»РµРЅ РїРµСЂРІС‹Рј РҐ СЂР°Р·'
 from
 (
 	select t2.id, t2.ProductId
