@@ -2,10 +2,10 @@ use testDB;
 
 select
 	res.ProductId,
-	Count(res.id) 'Куплен первым Х раз'
+	Count(res.ProductId) 'Куплен первым Х раз'
 from
 (
-	select t2.id, t2.ProductId
+	select t2.ProductId
 	from
 	(
 		select
